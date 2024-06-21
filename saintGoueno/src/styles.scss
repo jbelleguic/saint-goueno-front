@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+$primary-color: #1a1a1a;
+$secondary-color: #ea963d;
+
+$text-color: white;
+
+nav, footer {
+    background-color: $primary-color;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+p {
+    
+    &.black{
+        color: $text-color;
+    }
+}
+
+.btn-btn {
+    background-color: $secondary-color;
+}
+
+.secondary-color{
+    color: $secondary-color;
+}
+
+.i-size{
+    width: 200px;
+}
