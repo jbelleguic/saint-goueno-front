@@ -2,15 +2,14 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-montee-historique',
   standalone: true,
   imports: [],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss'
+  templateUrl: './montee-historique.component.html',
+  styleUrl: './montee-historique.component.scss'
 })
-export class NavbarComponent {
+export class MonteeHistoriqueComponent {
 
-  
   constructor(private router: Router) {}
 
   navigateToRoute() {
